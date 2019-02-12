@@ -2,9 +2,9 @@
 static char *useragent      = "Mozilla/5.0 (X11; U; Unix; en-US) "
                               "AppleWebKit/537.15 (KHTML, like Gecko) "
                               "Chrome/24.0.1295.0 Safari/537.15 Surf/"VERSION;
-static char *scriptfile     = "~/.surf/script.js";
-static char *styledir       = "~/.surf/styles/";
-static char *cachefolder    = "~/.surf/cache/";
+static char *scriptfile     = "~/.config/surf/script.js";
+static char *styledir       = "~/.config/surf/styles/";
+static char *cachefolder    = "~/.config/surf/cache/";
 
 static Bool kioskmode       = FALSE; /* Ignore shortcuts */
 static Bool showindicators  = TRUE;  /* Show indicators in window title */
@@ -12,10 +12,10 @@ static Bool zoomto96dpi     = TRUE;  /* Zoom pages to always emulate 96dpi */
 static Bool runinfullscreen = FALSE; /* Run in fullscreen mode by default */
 
 static guint defaultfontsize = 12;   /* Default font size */
-static gfloat zoomlevel = 1.0;       /* Default zoom level */
+static gfloat zoomlevel = 1.2;       /* Default zoom level */
 
 /* Soup default features */
-static char *cookiefile     = "~/.surf/cookies.txt";
+static char *cookiefile     = "~/.config/surf/cookies.txt";
 static char *cookiepolicies = "Aa@"; /* A: accept all; a: accept nothing,
                                       * @: accept all except third party */
 static char *cafile         = "/etc/ssl/certs/ca-certificates.crt";
